@@ -4,11 +4,11 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "15:57"
+      time: "16:02"
       timezone: "Europe/London"
       day: "friday"
     commit-message: 
-      prefix: "Dependabot (github actions repo workflows and reusable workflows): "
+      prefix: "Dependabot (repo and reusable workflows): "
     groups: 
       gh-actions:
         applies-to: version-updates
