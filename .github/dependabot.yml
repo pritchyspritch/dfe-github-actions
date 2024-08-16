@@ -3,7 +3,10 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+      time: "15:57"
+      timezone: "Europe/London"
+      day: "friday"
     commit-message: 
       prefix: "Dependabot (github actions repo workflows and reusable workflows): "
     groups: 
